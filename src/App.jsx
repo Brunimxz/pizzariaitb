@@ -5,7 +5,7 @@ import Listagem from './pages/Listagem';
 
 const App = () => {
 
-  const [color] = userState("#0000FF")
+  const [color] = useState("#0000FF")
   document.body.style.backgroundColor = color
 
   return(
