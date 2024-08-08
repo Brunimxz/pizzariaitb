@@ -9,9 +9,9 @@ const App = () => {
   document.body.style.backgroundColor = color
 
   return(
-    <routes>
+    <Routes>
       <Route path="/" element={<Listagem/>}/>
-    </routes>
+    </Routes>
   )
 }
 
